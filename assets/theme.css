@@ -1,7 +1,12 @@
 
-/*.tab.active > * {
-    color: white !important;
-}*/
+.tab.active {
+    background: linear-gradient(to bottom, transparent 0%, #FFF9ED 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-top: none !important;
+}
+
+.tab.active > * {
+    color: #C18000 !important;
+}
 
 .header.collapsible {
     box-sizing: content-box;
@@ -19,12 +24,13 @@
 .monaco-tree-wrapper >
 .monaco-tree-rows > 
 .monaco-tree-row.focused {
-    box-sizing: content-box;
     background-color: #F2F2F2 !important;
     border-right: 1pt #e5e5e5 solid;
 }
 
-.explorer-folders-view >
+.split-view-view >
+.collapsible >
+* >
 .monaco-tree >
 .monaco-scrollable-element >
 .monaco-tree-wrapper >
@@ -35,6 +41,22 @@
 .label-name {
     color: #CD4602 !important;
 }
+
+
+.split-view-view >
+.collapsible >
+.explorer-folders-view >
+.monaco-tree >
+.monaco-scrollable-element >
+.monaco-tree-wrapper >
+.monaco-tree-rows > 
+.monaco-tree-row.focused.selected >
+.content >
+.monaco-icon-label >
+.label-name {
+    color: #3C8412 !important;
+}
+
 
 .monaco-tree-row.focused.selected > .content > .sub-content > .monaco-icon-label > .label-name {
     color: #3A79B5 !important;
@@ -54,11 +76,10 @@
     opacity: 0 !important;
 }
 
-.part.titlebar {
-    display: none !important;
-    height: 0 !important;
-}
-
 .part.panel > .composite.title {
     border-top: 1pt #e5e5e5 solid !important;
+}
+
+.monaco-workbench .close-editor-action {
+    
 }
