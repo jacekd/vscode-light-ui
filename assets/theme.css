@@ -6,12 +6,12 @@
 .header.collapsible {
     background-color: transparent !important;
     border-color: #eee;
-    border-right: 2pt #eee solid;
+    border-right: 1pt #eee solid;
 }
 
 .monaco-tree-row.focused {
-    background-color: #eee !important;
-    border-right: 2pt #eee solid;
+    background-color: #F2F2F2 !important;
+    border-right: 1pt #eee solid;
 }
 
 .monaco-tree-row.focused.selected > .content > .monaco-icon-label > .label-name {
@@ -23,11 +23,11 @@
 }
 
 .sidebar {
-    border-right: 2pt #eee solid;
+    border-right: 1pt #eee solid;
 }
 
 .tabs {
-    border-bottom: 2pt #eee solid;
+    border-bottom: 1pt #eee solid;
 }
 
 .scroll-decoration {
