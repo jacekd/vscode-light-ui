@@ -1,0 +1,51 @@
+
+
+
+/*.tab.active > * {
+    color: white !important;
+}*/
+
+.header.collapsible {
+    background-color: transparent !important;
+    border-color: #eee;
+    border-right: 2pt #eee solid;
+}
+
+.monaco-tree-row.focused {
+    background-color: #eee !important;
+    border-right: 2pt #eee solid;
+}
+
+.monaco-tree-row.focused.selected > .content > .monaco-icon-label > .label-name {
+    color: #CD4602 !important;
+}
+
+.monaco-tree-row.focused.selected > .content > .sub-content > .monaco-icon-label > .label-name {
+    color: #3A79B5 !important;
+}
+
+.sidebar {
+    border-right: 2pt #eee solid;
+}
+
+.tabs {
+    border-bottom: 2pt #eee solid;
+}
+
+.scroll-decoration {
+    opacity: 0 !important;
+}
+
+.part.titlebar {
+    display: none !important;
+    height: 0 !important;
+}
+
+.part {
+    top: 0 !important;
+    height: 100vh !important;
+}
+
+.part.sidebar {
+    padding-top: 12pt;
+}
