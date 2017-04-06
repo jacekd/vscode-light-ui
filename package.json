@@ -29,6 +29,9 @@
 			}
 		]
 	},
+	"extensionDependencies": [
+		"karyfoundation.theme-karyfoundation-themes"
+	],
 	"devDependencies": {
 		"mustache": "^2.2.1",
 		"ncp": "^2.0.0",
