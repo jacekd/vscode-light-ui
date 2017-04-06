@@ -40,12 +40,3 @@
     display: none !important;
     height: 0 !important;
 }
-
-.part {
-    top: 0 !important;
-    height: 100vh !important;
-}
-
-.part.sidebar {
-    padding-top: 12pt;
-}
