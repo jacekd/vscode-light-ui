@@ -64,6 +64,10 @@
     background-color: #f7f7f7 !important;
 }
 
+.tab > * {
+    color: #ccc !important;
+}
+
 .tab.active {
     background: linear-gradient(to bottom, transparent 0%, #FFF9ED 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-top: none !important;
