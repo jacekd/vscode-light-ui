@@ -118,3 +118,8 @@
 .part.titlebar {
     background-color: #f7f7f7 !important;
 }
+
+.badge > .badge-content {
+    background-color: #CD4602 !important;
+    color: #f7f7f7 !important;
+}
