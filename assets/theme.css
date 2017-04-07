@@ -76,7 +76,7 @@
 .tabs {
     box-sizing: content-box;
     border-bottom: 1pt #e5e5e5 solid;
-    workbench.parts.sidebar
+    background-color: #f7f7f7 !important;
 }
 
 .scroll-decoration {
