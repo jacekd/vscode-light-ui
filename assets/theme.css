@@ -1,17 +1,4 @@
 
-.tab.active {
-    background: linear-gradient(to bottom, transparent 0%, #FFF9ED 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    border-top: none !important;
-}
-
-.tab.active > * {
-    color: #C18000 !important;
-}
-
-.tab {
-    border-right-color: #e5e5e5 !important;
-}
-
 .header.collapsible {
     box-sizing: content-box;
     background-color: transparent !important;
@@ -72,6 +59,19 @@
     background-color: #f7f7f7 !important;
 }
 
+.tab {
+    border-right-color: #e5e5e5 !important;
+    background-color: #f7f7f7 !important;
+}
+
+.tab.active {
+    background: linear-gradient(to bottom, transparent 0%, #FFF9ED 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-top: none !important;
+}
+
+.tab.active > * {
+    color: #C18000 !important;
+}
 
 .tabs {
     box-sizing: content-box;
