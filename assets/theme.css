@@ -127,3 +127,7 @@
 .composite.title > .title-label > * {
     color: #C18000 !important;
 }
+
+.line-numbers {
+    color: #ccc !important;
+}
