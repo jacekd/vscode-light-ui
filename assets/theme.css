@@ -69,6 +69,7 @@
 .sidebar {
     box-sizing: content-box;
     border-right: 1pt #e5e5e5 solid;
+    background-color: #f7f7f7 !important;
 }
 
 .tabs {
