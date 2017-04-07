@@ -1,6 +1,6 @@
 
 # Kary Light UI
-
+ 
 For those of you how enjoy the [Kary Foundation's Light Theme](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes), This is one full experience of Kary Foundation's Light Theme across all Visual Studio Code. Making it a beautify designed editor.
 
 ![](https://cloud.githubusercontent.com/assets/2157285/24767591/b6ea0ffa-1b14-11e7-8ab6-4ffb4ece2995.png)

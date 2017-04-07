@@ -123,3 +123,7 @@
     background-color: #CD4602 !important;
     color: #f7f7f7 !important;
 }
+
+.composite.title > .title-label > * {
+    color: #C18000 !important;
+}
