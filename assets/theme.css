@@ -8,6 +8,10 @@
     color: #C18000 !important;
 }
 
+.tab {
+    border-right-color: #e5e5e5 !important;
+}
+
 .header.collapsible {
     box-sizing: content-box;
     background-color: transparent !important;
@@ -80,6 +84,37 @@
     border-top: 1pt #e5e5e5 solid !important;
 }
 
+.part.activitybar {
+    background-color: #f7f7f7;
+    border-right: 1pt #e5e5e5 solid;
+}
+
 .monaco-workbench .close-editor-action {
-    
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='3 3 16 16'%3E%3Cpath fill='#C18000' d='M12.597 11.042l2.803 2.803-1.556 1.555-2.802-2.802L8.239 15.4l-1.556-1.555 2.802-2.803-2.802-2.803 1.555-1.556 2.804 2.803 2.803-2.803L15.4 8.239z'/%3E%3C/svg%3E") 50% no-repeat !important;
+}
+
+
+.monaco-workbench>.activitybar .monaco-action-bar .action-label.explore {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2732%27%20height%3D%2732%27%3E%3Cpath%20fill%3D%27%23979797%27%20%20d%3D%27M17.705%208H9s-2%20.078-2%202v15s0%202%202%202l11-.004C22%2027%2022%2025%2022%2025V13.509L17.705%208zM16%2010v5h4v10H9V10h7zm5.509-6h-8.493S11%204.016%2010.985%206H19v.454L22.931%2011H24v12c2%200%202-1.995%202-1.995V9.648L21.509%204z%27%20%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.monaco-workbench>.activitybar .monaco-action-bar .action-label.search {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2732%27%20height%3D%2732%27%3E%3Cpath%20d%3D%27M19.23%204.095c-4.842%200-8.769%203.928-8.769%208.771%200%201.781.539%203.43%201.449%204.815%200%200-5.482%205.455-7.102%207.102-1.621%201.646%201.001%204.071%202.602%202.409%201.602-1.659%207.006-7.005%207.006-7.005a8.726%208.726%200%200%200%204.814%201.45%208.773%208.773%200%200%200%208.772-8.771c.001-4.844-3.927-8.771-8.772-8.771zm0%2015.035a6.265%206.265%200%201%201%200-12.529%206.264%206.264%200%201%201%200%2012.529z%27%20fill%3D%27%23979797%27%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.monaco-workbench>.activitybar>.content .monaco-action-bar .action-label.scm {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2710%27%20height%3D%2716%27%20viewBox%3D%270%200%2010%2016%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Ctitle%3Erepo-forked%3C%2Ftitle%3E%3Cpath%20d%3D%27M8%201a1.993%201.993%200%200%200-1%203.72V6L5%208%203%206V4.72A1.993%201.993%200%200%200%202%201a1.993%201.993%200%200%200-1%203.72V6.5l3%203v1.78A1.993%201.993%200%200%200%205%2015a1.993%201.993%200%200%200%201-3.72V9.5l3-3V4.72A1.993%201.993%200%200%200%208%201zM2%204.2C1.34%204.2.8%203.65.8%203c0-.65.55-1.2%201.2-1.2.65%200%201.2.55%201.2%201.2%200%20.65-.55%201.2-1.2%201.2zm3%2010c-.66%200-1.2-.55-1.2-1.2%200-.65.55-1.2%201.2-1.2.65%200%201.2.55%201.2%201.2%200%20.65-.55%201.2-1.2%201.2zm3-10c-.66%200-1.2-.55-1.2-1.2%200-.65.55-1.2%201.2-1.2.65%200%201.2.55%201.2%201.2%200%20.65-.55%201.2-1.2%201.2z%27%20fill%3D%22%23979797%22%20fill-rule%3D%27evenodd%27%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.monaco-workbench>.activitybar .monaco-action-bar .action-label.debug {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2732%27%20height%3D%2732%27%20viewBox%3D%270%200%2032%2032%27%3E%20%20%20%20%20%3Cstyle%3E%20.icon-canvas-transparent%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20opacity%3A0%3B%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%3C%2Fstyle%3E%20%20%20%20%20%3Cpath%20class%3D%27icon-canvas-transparent%20activity-sidebar-icon%27%20d%3D%27M32%2032H0V0h32v32z%27%20id%3D%27canvas%27%2F%3E%20%20%20%20%20%3Cpath%20fill%3D%27%23979797%27%20d%3D%27M17%2019.488v4.248c0%20.462.09%201.264-.373%201.264H15v-1h1v-3.19l-.173-.18c-1.453%201.205-3.528%201.248-4.67.108C10%2019.578%2010.118%2018%2011.376%2016H8v1H7v-1.627C7%2014.91%207.802%2015%208.264%2015h4.105L17%2019.488zM14%209h-1V8h1.955c.46%200%201.045.22%201.045.682v3.345l.736.875c.18-.973.89-1.71%201.914-1.71.143%200%20.35.014.35.04V9h1v2.618c0%20.117.265.382.382.382H23v1h-2.233c.027%200%20.042.154.042.298%200%201.025-.74%201.753-1.712%201.932l.875.77h3.346c.462%200%20.682.583.682%201.045V19h-1v-1h-2.52L14%2011.698V9zm2-5C9.373%204%204%209.373%204%2016s5.373%2012%2012%2012%2012-5.373%2012-12S22.627%204%2016%204zm10%2012c0%202.397-.85%204.6-2.262%206.324L9.676%208.262A9.95%209.95%200%200%201%2016%206c5.514%200%2010%204.486%2010%2010zM6%2016c0-2.398.85-4.6%202.262-6.324L22.324%2023.74A9.961%209.961%200%200%201%2016%2026c-5.514%200-10-4.486-10-10z%27%20%20%20%20%20id%3D%27iconBg%27%2F%3E%20%3C%2Fsvg%3E");
+}
+
+.monaco-workbench>.activitybar>.content .monaco-action-bar .action-label.extensions {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg%20id%3D%27Layer_1%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2060%2060%27%3E%3Cstyle%3E.st0%7Bfill%3A%23fff%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%27%23979797%27%20d%3D%27M12.9%2047.1H30V60H0V0h25.7v12.9H12.9v34.2zm4.2-4.2h25.7V17.1H17.1v25.8zM30%200v12.9h8.6V8.6h12.9v12.9h-4.3V30H60V0H30zm17.1%2047.1H34.3V60H60V34.3H47.1v12.8z%27%20id%3D%27iconBg%27%2F%3E%3C%2Fsvg%3E") 50%/22px no-repeat !important;
+}
+
+
+.part.titlebar {
+    background-color: #f7f7f7 !important;
 }
